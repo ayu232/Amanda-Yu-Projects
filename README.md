@@ -4,4 +4,5 @@
 
 2. Final project from Applied Statistics and Data Science
 
-3. Gaussian Elimination calculator made for linear Algebra 
+3. Gaussian Elimination calculator made for linear Algebra
+    Finds predictors of life expectancy 
