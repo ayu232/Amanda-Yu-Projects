@@ -22,13 +22,14 @@ We thought that it would be less obvious what the predictors of life expectancy 
 
 `	`Based on the plot we chose to analyze BMI, HIV/AIDS, and schooling since this plot shows how strong the correlation is based on the colors. At first glance without analysis, looking at the correlation between life expectancy versus schooling, BMI, and HIV/AIDS we see that there seems to be a correlation between these factors. Schooling seems to have the tightest fit.  
 
+
 ![](Aspose.Words.4c6f20e9-759c-4682-b144-a4e400acd7a5.002.png)![](Aspose.Words.4c6f20e9-759c-4682-b144-a4e400acd7a5.003.png)
 
 ![](Aspose.Words.4c6f20e9-759c-4682-b144-a4e400acd7a5.004.png)
 
 **3. Methods**
-**
-` 	`We used a lasso regression and created a best model using lm for fitting linear models. Lasso regression puts constraints on the size of the coefficients associated with each variable, so the curves in this lasso show the standardized coefficients. The lasso adds bias to estimates and reduces variance to improve prediction which is why we used it here.  From the lasso graph we can see that the predictions 11, 2, and 8, which correspond to Schooling, HIV/AIDs, and adult mortality respectively, seems to be important since it enters the model first, and then has a slow and steady descent to the final value.
+
+We used a lasso regression and created a best model using lm for fitting linear models. Lasso regression puts constraints on the size of the coefficients associated with each variable, so the curves in this lasso show the standardized coefficients. The lasso adds bias to estimates and reduces variance to improve prediction which is why we used it here.  From the lasso graph we can see that the predictions 11, 2, and 8, which correspond to Schooling, HIV/AIDs, and adult mortality respectively, seems to be important since it enters the model first, and then has a slow and steady descent to the final value.
 
 ![](Aspose.Words.4c6f20e9-759c-4682-b144-a4e400acd7a5.005.png)
 
