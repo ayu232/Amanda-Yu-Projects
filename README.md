@@ -2,7 +2,7 @@
 1. Final project from Applied Statistics and Data Science
 - Finds predictors of life expectancy and statistical analysis of it
 
-2. Gaussian Elimination calculator made for linear Algebra
+2. Gaussian Elimination calculator made for Linear Algebra
 
 3. FInal Linear Algebra Project: Using SDV to detect Masked vs Unmasked Facial recognition
 - Utilized scikit-learn (sklearn) for data preprocessing, PCA, and classification
