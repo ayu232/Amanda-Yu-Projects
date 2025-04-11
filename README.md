@@ -8,5 +8,3 @@
 - Utilized scikit-learn (sklearn) for data preprocessing, PCA, and classification
 - Explored the role of matrix transformations, eigenvalues/eigenvectors, and PCA in high-dimensional image data
 - Evaluated model performance using metrics like accuracy, precision, and recall
-
-4. Final project from intro to python course
