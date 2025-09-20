@@ -134,27 +134,15 @@ across all 3 retailers that are named differently based on the website.
 Similarly, each website can utilize a different product hierarchy,
 categorizing the product under a different segment depending on the
 chosen retailer. [See examples below:]{.underline}
+| Product | Sephora | Ulta | Macy’s |
+|---------|---------|------|--------|
+| *Marc Jacob’s Daisy Eau De Toilette 1.6 oz* | Daisy Eau de Toilette with Wild Berries White Violet Sandalwood Notes | Daisy Eau de Toilette | Daisy Eau de Toilette Spray, 1.6 oz. |
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Product**     | **Sephora**     | **Ulta**        | **Macy's**      |
-+=================+=================+=================+=================+
-| *Marc Jacob's   | *Daisy Eau de   | *Daisy Eau de   | *Daisy Eau de   |
-| Daisy Eau De    | Toilette with   | Toilette*       | Toilette Spray, |
-| Toilette*       | Wild Berries    |                 | 1.6 oz.*        |
-|                 | White Violet    |                 |                 |
-| *1.6 oz*        | Sandalwood      |                 |                 |
-|                 | Notes*          |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+<br>
 
-  -----------------------------------------------------------------------
-  **Product**       **Sephora**       **Ulta**          **Macy's**
-  ----------------- ----------------- ----------------- -----------------
-  *NARS Pure        *Makeup \> Face   *Home \> Skincare *Beauty \> All
-  Radiant Tinted    \> Tinted         \> Moisturizer*   Makeup*
-  Moisturizer Broad Moisturizer*                        
-  Spectrum SPF 30*                                      
-
-  -----------------------------------------------------------------------
+| Product | Sephora | Ulta | Macy’s |
+|---------|---------|------|--------|
+| NARS Pure Radiant Tinted Moisturizer Broad Spectrum SPF 30 | Makeup > Face > Tinted Moisturizer | Home > Skincare > Moisturizer | Beauty > All Makeup |
 
 To make this dataset useful for analysis, we have two goals: to identify
 and match identical products across different retailers and standardize
