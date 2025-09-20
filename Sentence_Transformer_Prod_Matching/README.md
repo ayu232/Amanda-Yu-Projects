@@ -288,8 +288,7 @@ model on the GPU. Multiclass log loss was used to measure the training
 loss. Lastly, we predicted the labels on the test set and measured
 accuracy. Find results below:
 
-![](./image2.png){width="5.755208880139983in"
-height="3.903950131233596in"}
+![](./image2.png)
 
 The model achieved accuracy of about 86%. It performed very well in
 categories such as candles, where the rule-based logic is very clear and
@@ -358,7 +357,7 @@ women's fragrances that were confused with men's included other keywords
 such as 'cologne' or 'intense', which many humans would associate with
 men's rather than women's.
 
-![](./image5.png){width="6.5in" height="5.833333333333333in"}
+![](./image5.png)
 
 ### Image and Text Embeddings - Product Matching 
 
@@ -397,8 +396,7 @@ was inspired by prior work \[2\], and has been shown to significantly
 improve ranking performance in tasks like paraphrase detection and
 product search.
 
-![](./image3.png){width="5.786175634295713in"
-height="3.588542213473316in"}
+![](./image3.png)
 
 The retrieval evaluation results reinforced the distinction more. The
 model trained with MNRL consistently outperformed CosineSimilarityLoss
@@ -447,7 +445,7 @@ inflating the contribution of the image signal. $$
 For late fusion, a weighted combination of the two embeddings was
 computed:
 
-$𝐶𝑜𝑚𝑏𝑖𝑛𝑒𝑑\ 𝑒𝑚𝑏𝑒𝑑𝑑𝑖𝑛𝑔 = \alpha \cdot 𝑇𝐸𝑋𝑇 + (1-\alpha)\cdot \text{image}_{PCA}$\
+$𝐶𝑜𝑚𝑏𝑖𝑛𝑒𝑑\ 𝑒𝑚𝑏𝑒𝑑𝑑𝑖𝑛𝑔 = \alpha \cdot 𝑇𝐸𝑋𝑇 + (1-\alpha)\cdot \text{image}_{PCA}$
 
 Spearman correlation was measured against labeled similarity scores for
 various α values. The best result (0.7859) was obtained at α = 0.95,
@@ -456,8 +454,7 @@ power, and the visual information offered usable complementary cues. The
 figure below shows how performance increases as more weight is given to
 text, with the best performance at α = 0.85--0.95 range.
 
-![](./image1.png){width="5.109375546806649in"
-height="3.4698829833770777in"}
+![](./image1.png)
 
 The image features were particularly helpful in cases where products
 were visually similar and from the same brand, ensuring consistent
