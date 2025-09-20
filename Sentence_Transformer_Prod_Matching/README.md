@@ -133,7 +133,7 @@ of the industry issue, there are specific products that are offered
 across all 3 retailers that are named differently based on the website.
 Similarly, each website can utilize a different product hierarchy,
 categorizing the product under a different segment depending on the
-chosen retailer. [See examples below:]{.underline}
+chosen retailer. [See examples below:]
 | Product | Sephora | Ulta | Macy’s |
 |---------|---------|------|--------|
 | *Marc Jacob’s Daisy Eau De Toilette 1.6 oz* | Daisy Eau de Toilette with Wild Berries White Violet Sandalwood Notes | Daisy Eau de Toilette | Daisy Eau de Toilette Spray, 1.6 oz. |
@@ -209,7 +209,7 @@ classifier that produces a similarity or classification score. In
 general, this approach achieves higher accuracy than separately encoding
 each sentence, although it is more computationally expensive.
 
-![](./image4.png){width="2.84375in" height="2.551045494313211in"}
+![](./image4.png)
 
 # Demo/Application
 
@@ -390,17 +390,13 @@ The retrieval evaluation results reinforced the distinction more. The
 model trained with MNRL consistently outperformed CosineSimilarityLoss
 on key retrieval metrics:
 
-+-----------------------------------------------------------------------+
-| CosineSimilarityLoss vs MNRL                                          |
-+=======================================================================+
-| Accuracy@10 improved from 0.5312 → 0.5874                             |
-|                                                                       |
-| NDCG@10 rose from 0.2757 → 0.2980                                     |
-|                                                                       |
-| MRR@10 increased from 0.1929 → 0.2051                                 |
-|                                                                       |
-| MAP@100 improved from 0.2007 → 0.2180                                 |
-+-----------------------------------------------------------------------+
+| CosineSimilarityLoss vs MNRL |
+|------------------------------|
+| Accuracy@10 improved from 0.5312 → 0.5874 |
+| NDCG@10 rose from 0.2757 → 0.2980 |
+| MRR@10 increased from 0.1929 → 0.2051 |
+| MAP@100 improved from 0.2007 → 0.2180 |
+
 
 While CosineSimilarityLoss did slightly better at top-1 retrieval
 (Accuracy@1: 0.0035 vs. 0.0029), this is a marginal difference,
