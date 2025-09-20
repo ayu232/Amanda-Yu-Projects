@@ -12,12 +12,6 @@ Milestone 3
 
 Sentence Transformer: Product Matching
 
-# 
-
-# 
-
-# 
-
 Amanda Yu
 
 Matthew Howarth
